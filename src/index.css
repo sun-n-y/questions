@@ -16,7 +16,7 @@ body {
 main {
     background-color: white;
     width: 80vw;
-    padding: 2rem;
+    padding: 2rem 2rem 3rem 2rem;
     border-radius: .2rem;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     margin: 0 auto;
@@ -54,7 +54,20 @@ header {
 }
 
 .info {
+    margin-top: 1rem;
     padding: 0 .3rem;
     line-height: 2rem;
     color: lightslategray;
+}
+
+button {
+    border: transparent;
+    background-color: salmon;
+    display: grid;
+    place-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
 }
