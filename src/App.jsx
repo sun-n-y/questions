@@ -1,7 +1,14 @@
+import { useState } from 'react';
+import data from './data';
+import Questions from './Questions';
+
 function App() {
+  const [questions, setQuestions] = useState(data);
   return (
     <>
-      <h1>hi</h1>
+      <main>
+        <Questions questions={questions} />
+      </main>
     </>
   );
 }
