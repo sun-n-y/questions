@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: lightsalmon;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+main {
+    background-color: white;
+    width: 80vw;
+    padding: 2rem;
+    border-radius: .2rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.questions {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.single-question {
+    border: 2px solid lightgray;
+    padding: 1rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .3rem;
+}
+
+.question {
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.info {
+    padding: 0 .3rem;
+    line-height: 2rem;
+    color: lightslategray;
+}
